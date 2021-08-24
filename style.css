@@ -116,8 +116,7 @@ div ul li a {
 	color: rgb(109, 106, 106);
 }
 
-.keySkills{
-	border: 1px solid red;
+.keySkills{	
 	columns: 3;
 	font-size: 14px;	
 	font-weight: 100;
