@@ -1,19 +1,81 @@
+body {
+	width: 800px;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+
+.mainDetails{	
+    margin-left: auto;
+    margin-right: auto;
+	border-bottom: 2px solid rgb(207, 135, 0);
+	
+}
+
+#contactDetails{	
+	float: right;
+	font-size: 14px;
+    font-weight: 100;
+    color: rgb(87, 87, 87);
+	
+}
+
+#conteudoDetails{
+	font-size: 14px;
+	font-weight: 100;
+	color: rgb(87, 87, 87);
+}
+
+#mainArea{
+	width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containerBorder{
+	border-bottom: 1.5px solid;
+	color: rgb(230, 230, 230);
+}
+
+
 .clear {
 	clear: both;
+}
+
+#perfilShot{
+	border-radius: 80px;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	border-radius: 25px;
+}
+
+#jobTitle{
+	font-weight: 400;
 }
 
 #name {
 	float: left;
+	line-height: 16px;
+	margin-left: 30px;
+	
+}
+div ul li{
+	list-style: none;
+}
+
+div ul li a {
+	text-decoration: none;
+	color: inherit;
+	
 }
 
 #contactDetails {
 	float: right;
+	
 }
 
 .sectionTitle {
@@ -21,7 +83,43 @@
 	width: 25%;
 }
 
+.tituloh1{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	color: rgb(207, 135, 0);
+}
+
+.tituloh2{
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 2px;	
+	color:rgb(66, 66, 66)
+}
+
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+
+.conteudo{
+	font-size: 16px;
+	font-weight: 100;	
+	color: rgb(87, 87, 87);
+}
+
+.subDetails{
+	font-style: italic;
+	font-size: 13px;
+	font-weight: 200;
+	line-height: 2px;	
+	color: rgb(109, 106, 106);
+}
+
+.keySkills{
+	border: 1px solid red;
+	columns: 3;
+	font-size: 14px;	
+	font-weight: 100;
+	color: rgb(87, 87, 87);
 }
